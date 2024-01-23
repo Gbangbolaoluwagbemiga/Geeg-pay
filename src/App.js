@@ -1,6 +1,6 @@
 import {useState} from 'react';
-// import logo from './img/W_logo.jpg';
-import logo from './img/W-team.jpg';
+import logo from './img/W-logo.jpg';
+// import logo from './img/W-team.jpg';
 import team from './img/W-team.jpg';
 import Binance from './img/W_Binance.jpg';
 // import coinBase from './img/W_c.jpg';
