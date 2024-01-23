@@ -1,15 +1,17 @@
 import {useState} from 'react';
-import logo from '../src/img/W_logo.jpg';
-import team from '../src/img/W-team.jpg';
-import Binance from '../src/img/W_Binance.jpg';
-import coinBase from '../src/img/W_c.jpg';
-import CocaCola from '../src/img/W_cocaC.jpg';
-import Ethad from '../src/img/W_ethad.jpg';
-import Renault from '../src/img/W_kite.jpg';
-import mint1 from '../src/img/W_B1.jpg';
-import mint2 from '../src/img/W_B2.jpg';
-import mint3 from '../src/img/W_B3.jpg';
-import './App.css';
+// import logo from './img/W_logo.jpg';
+import logo from './img/W-team.jpg';
+import team from './img/W-team.jpg';
+import Binance from './img/W_Binance.jpg';
+// import coinBase from './img/W_c.jpg';
+import coinBase from './img/W-team.jpg';
+import CocaCola from './img/W_cocaC.jpg';
+import Ethad from './img/W-team.jpg';
+// import Ethad from './img/W_ethad.jpg';
+import Renault from './img/W_kite.jpg';
+import mint1 from './img/W_B1.jpg';
+import mint2 from './img/W_B2.jpg';
+import mint3 from './img/W_B3.jpg';
 
 function App() {
   const [mint, setMint] = useState('mint');
