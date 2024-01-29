@@ -1,6 +1,7 @@
 import HeaderContent from './component/HeaderContent';
 import Navbar from './component/Navbar';
 import Sponsor from './component/Sponsor';
+import Upgrade from './component/Upgrade';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <HeaderContent />
       <Sponsor />
+      <Upgrade />
     </div>
   );
 }
