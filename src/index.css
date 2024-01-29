@@ -36,12 +36,55 @@
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
 
+.content-header {
+  color: var(--Gray-800, #1d2939);
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -1.28px;
+}
+
+.content-text {
+  color: var(--Gray-500, #667085);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.avatar {
+  margin-left: -0.75rem;
+}
+
+.Header-images {
+  width: 30rem;
+  margin-left: 3.5rem;
+  background: rgba(178, 221, 255, 1);
+}
+.user {
+  width: 8.5rem;
+  height: 8.5rem;
+  margin-left: 0.5rem;
+}
+.asset {
+  width: 2rem;
+  margin-left: 1.5rem;
+  background-color: white;
+  border-radius: 4rem;
+  height: 2rem;
+  padding: 0 0.25rem;
+}
+
 @media screen and (max-width: 567px) {
   .navbar {
-    height: 3rem;
+    height: 100%;
     margin: 0;
     padding: 0;
     padding-top: 0.75rem;
+    border-radius: 0;
   }
   .nav-item,
   .sign--up > p {
@@ -63,5 +106,57 @@
   .sign--up {
     margin-top: -1rem;
     /* background: var(--Gray-100, #f2f4f7); */
+  }
+  .user {
+    width: 5rem;
+    height: 4rem;
+    margin-left: 1rem;
+  }
+
+  .content-header {
+    font-size: 2rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  .content-text {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1rem;
+  }
+
+  .avatar {
+    width: 2.1rem;
+    height: 2.5rem;
+    margin-left: -0.75rem;
+  }
+  .star {
+    width: 0.75rem;
+  }
+  .rating {
+    margin-left: -1.5rem;
+  }
+
+  .Header-images {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .asset {
+    width: 2rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    background-color: white;
+    border-radius: 4rem;
+    height: 2rem;
+    padding: 0 0.25rem;
+  }
+
+  .free-sign,
+  .talk-sales {
+    font-size: 0.55rem;
+  }
+  .reviews {
+    font-size: 0.75rem;
   }
 }
