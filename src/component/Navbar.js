@@ -1,10 +1,14 @@
 import arrDown from '../image/icon/chevron-down.svg';
+import logo from '../image/icon/logo.png';
 
 function Navbar() {
   return (
     <nav className={`navbar navbar-expand-lg mt-3 `}>
       <div className="container-fluid mb-4">
-        <h6 className="me">ClearLink</h6>
+        <h6 className="me">
+          {' '}
+          <img src={logo} alt="logo" className="logo" /> ClearLink
+        </h6>
         <button
           className={`navbar-toggler hamburger `}
           type="button"
