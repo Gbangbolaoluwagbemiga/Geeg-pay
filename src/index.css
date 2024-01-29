@@ -1,0 +1,68 @@
+.navbar {
+  height: 4rem;
+  /* margin-top: 1.25rem; */
+  padding: 0 2rem;
+  padding-top: 1.5rem;
+  border-radius: 100px;
+  border: 1px solid var(--Gray-300, #d0d5dd);
+  background: var(--Gray-100, #f2f4f7);
+}
+
+.hamburger {
+  font-size: 0.75rem;
+}
+
+.hamburger:focus {
+  outline: none;
+  box-shadow: 0 0 1px white;
+}
+
+.talk-sales {
+  padding: 0.25rem 1rem;
+  border-radius: 100px;
+  border: 1px solid var(--Gray-400, #98a2b3);
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.free-sign {
+  border-radius: 100px;
+  background: var(--Blue-700, #175cd3);
+  padding: 0.25rem 1rem;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.grid-block {
+  border-right: 1px solid var(--Gray-300, #d0d5dd);
+  border-bottom: 1px solid var(--Gray-300, #d0d5dd);
+}
+
+@media screen and (max-width: 567px) {
+  .navbar {
+    height: 3rem;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.75rem;
+  }
+  .nav-item,
+  .sign--up > p {
+    padding: 0.5rem;
+    background: var(--Gray-100, #f2f4f7);
+    margin-bottom: 0.25rem;
+  }
+  .nav-item:hover {
+    background: var(--Gray-100, #d0d5dd);
+  }
+
+  .navbar-nav,
+  .sign--up {
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 0.75rem;
+    width: 100%;
+  }
+  .sign--up {
+    margin-top: -1rem;
+    /* background: var(--Gray-100, #f2f4f7); */
+  }
+}
