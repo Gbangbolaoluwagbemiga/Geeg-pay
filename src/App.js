@@ -1,9 +1,9 @@
-import Header from './component/header';
+import Navbar from './component/Navbar';
 
 function App() {
   return (
     <div className="container">
-      <Header />
+      <Navbar />
     </div>
   );
 }

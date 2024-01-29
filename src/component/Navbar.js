@@ -1,4 +1,4 @@
-function Header() {
+function Navbar() {
   return (
     <nav className={`navbar navbar-expand-lg  `}>
       <div className="container-fluid mb-4">
@@ -27,4 +27,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Navbar;
