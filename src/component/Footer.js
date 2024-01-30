@@ -65,7 +65,7 @@ function Footer() {
         </div>
       </div>
       <div
-        className="col-12 d-flex justify-content-between mt-5"
+        className="col-12 d-flex justify-content-between mt-md-5"
         style={{background: '#F9FAFB', padding: '0.75rem'}}
       >
         <p>© 2023 ClearLink. All rights reserved.</p>
