@@ -70,7 +70,7 @@ export default function Accordion() {
     </>
   );
 }
-function AccordionQuestion({question, answer, num, handleVisibility}) {
+function AccordionQuestion({question, answer}) {
   const [isOpen, setIsOpen] = useState(true);
 
   function handleClick() {

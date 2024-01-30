@@ -2,8 +2,8 @@ import Accordion from './Accordion';
 
 function Faq() {
   return (
-    <div className="row">
-      <div className="col-6">
+    <div className="row mt-5">
+      <div className="col-md-6">
         <p style={{color: 'blue'}}>Support</p>
         <h2 className="fw-bold">FAQs</h2>
         <p>
