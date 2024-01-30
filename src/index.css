@@ -186,6 +186,10 @@
   font-size: 0.75rem;
 }
 
+.user--screen {
+  height: 25rem;
+}
+
 @media screen and (max-width: 567px) {
   .navbar {
     height: 100%;

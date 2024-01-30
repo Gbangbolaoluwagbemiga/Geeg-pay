@@ -4,7 +4,7 @@ import screen from '../image/user/Screen.png';
 function Service() {
   return (
     <div className="row">
-      <div className="col-md-5">
+      <div className="col-md-5 me-md-auto">
         <h3 className="fw-bold">
           Ready to clear the path to perfect communication?
         </h3>
@@ -30,8 +30,8 @@ function Service() {
         </p>
       </div>
 
-      <div className="col-md-7">
-        <img src={screen} alt="screen" className="img-fluid" />
+      <div className="col-md-6 ">
+        <img src={screen} alt="screen" className="img-fluid user--screen" />
       </div>
     </div>
   );

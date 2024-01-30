@@ -1,11 +1,13 @@
 import logo from '../image/icon/logo.png';
+import appstore from '../image/Asset/App store.svg';
+import playstore from '../image/Asset/Google Play.png';
 
 function Footer() {
   return (
     <div className="row mt-5">
-      <div className="col-md-4 col-12 mt-md-0 mt-4">
+      <div className="col-md-3 col-12 mt-md-0 mt-4">
         <p className="fw-bold">
-          <img src={logo} alt="logo" />
+          <img src={logo} className="me-2" alt="logo" />
           ClearLink.
         </p>
         <p>
@@ -44,6 +46,15 @@ function Footer() {
         <p>Cookies</p>
         <p>Licenses</p>
         <p>Contact</p>
+      </div>
+      <div className="col-md-1">
+        <p style={{color: 'blue'}}>Get the app</p>
+        <p>
+          <img src={appstore} alt="app-store" />
+        </p>{' '}
+        <p>
+          <img src={playstore} alt="play-store" />
+        </p>{' '}
       </div>
     </div>
   );
