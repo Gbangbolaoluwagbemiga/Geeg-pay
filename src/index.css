@@ -192,8 +192,15 @@
 .sponsor {
   width: 10.5rem;
 }
+.twisted {
+  width: 15rem;
+  height: 5rem;
+}
 
 @media screen and (max-width: 567px) {
+  .twisted {
+    display: none;
+  }
   .navbar {
     height: 100%;
     margin: 0;

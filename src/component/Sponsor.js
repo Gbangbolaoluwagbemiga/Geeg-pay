@@ -11,6 +11,7 @@ import video from '../image/Asset/asset 2.svg';
 import recording from '../image/icon/recording.svg';
 import calender from '../image/icon/calendar.svg';
 import lock from '../image/icon/lock.svg';
+import handleArrow from '../image/icon/Hand-drawn arrow.svg';
 
 function Sponsor() {
   return (
@@ -36,6 +37,11 @@ function Sponsor() {
           In a world where connection is everything, ClearLink takes the lead.
           Our cutting-edge video conferencing app offers:
         </p>
+        <img
+          src={handleArrow}
+          alt="Twisted-arrow"
+          className="col-md-6 twisted"
+        />
         <div className="row mt-3 sponsor-content">
           <div className="col-md-7 row">
             <div className="col-md-6">
