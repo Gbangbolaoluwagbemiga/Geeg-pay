@@ -1,3 +1,4 @@
+import Accordion from './component/Accordion';
 import HeaderContent from './component/HeaderContent';
 import Navbar from './component/Navbar';
 import Sponsor from './component/Sponsor';
@@ -10,6 +11,7 @@ function App() {
       <HeaderContent />
       <Sponsor />
       <Upgrade />
+      <Accordion />
     </div>
   );
 }

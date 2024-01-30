@@ -37,7 +37,7 @@ function Sponsor() {
           Our cutting-edge video conferencing app offers:
         </p>
         <div className="row mt-3">
-          <div className="col-md-7">
+          <div className="col-md-7 row">
             <div className="col-md-6">
               <img src={video} alt="video-icon" className="col-12 asset mb-2" />{' '}
               <h4 className="fw-bold">Crystal-clear HD video</h4>

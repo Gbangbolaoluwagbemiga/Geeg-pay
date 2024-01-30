@@ -34,8 +34,10 @@ function HeaderContent() {
         </p>
 
         <div className=" row text-center">
-          <p className="free-sign col-md-4 col-5 me-2">Start your free trial</p>
-          <p className="talk-sales col-md-4 col-6">
+          <p className="free-sign trial col-md-4 col-5 me-2">
+            Start your free trial
+          </p>
+          <p className="talk-sales trial col-md-4 col-6">
             <img src={bot} alt="bot" className="me-2" />
             Discover AI assistant
           </p>
