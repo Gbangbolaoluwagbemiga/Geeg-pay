@@ -1,5 +1,5 @@
-import Accordion from './component/Accordion';
 import Faq from './component/Faq';
+import Footer from './component/Footer';
 import HeaderContent from './component/HeaderContent';
 import Navbar from './component/Navbar';
 import Service from './component/Service';
@@ -15,6 +15,7 @@ function App() {
       <Upgrade />
       <Faq />
       <Service />
+      <Footer />
     </div>
   );
 }
