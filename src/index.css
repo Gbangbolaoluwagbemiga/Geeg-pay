@@ -189,6 +189,9 @@
 .user--screen {
   height: 25rem;
 }
+.sponsor {
+  width: 10rem;
+}
 
 @media screen and (max-width: 567px) {
   .navbar {
