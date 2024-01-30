@@ -36,7 +36,7 @@ function Sponsor() {
           In a world where connection is everything, ClearLink takes the lead.
           Our cutting-edge video conferencing app offers:
         </p>
-        <div className="row mt-3">
+        <div className="row mt-3 sponsor-content">
           <div className="col-md-7 row">
             <div className="col-md-6">
               <img src={video} alt="video-icon" className="col-12 asset mb-2" />{' '}

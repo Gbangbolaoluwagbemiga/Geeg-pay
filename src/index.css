@@ -310,4 +310,9 @@ textarea {
   .dummy-1 {
     margin-right: 0;
   }
+  .sponsor-content {
+    padding-left: 1rem;
+    margin: 0;
+    padding: 0;
+  }
 }
