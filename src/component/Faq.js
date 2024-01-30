@@ -3,7 +3,7 @@ import Accordion from './Accordion';
 function Faq() {
   return (
     <div className="row mt-5">
-      <div className="col-md-6">
+      <div className="col-md-6 mt-5">
         <p style={{color: 'blue'}}>Support</p>
         <h2 className="fw-bold">FAQs</h2>
         <p>

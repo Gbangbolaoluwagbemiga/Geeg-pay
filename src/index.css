@@ -116,9 +116,14 @@
 }
 
 .title,
-.icon {
+.icon--toggle {
   font-size: 1.25rem;
   font-weight: 500;
+}
+.icon--toggle {
+  border-radius: 6rem;
+  padding: 0.25rem 0.75rem;
+  background-color: white;
 }
 
 .content-box {

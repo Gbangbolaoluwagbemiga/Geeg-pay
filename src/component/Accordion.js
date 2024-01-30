@@ -81,7 +81,7 @@ function AccordionQuestion({question, answer}) {
     <div className={`item ${isOpen ? 'open' : ''}`} onClick={handleClick}>
       <div className="content-header d-flex justify-content-between">
         <p className="title fw-bold">{question}</p>
-        <p className="icon fw-bold">{isOpen ? '+' : '-'}</p>
+        <p className="icon--toggle fw-bold">{isOpen ? '+' : '-'}</p>
       </div>
 
       <div className="content-box">
