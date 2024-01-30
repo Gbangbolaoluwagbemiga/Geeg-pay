@@ -307,4 +307,7 @@
     margin: 0;
     padding: 0;
   }
+  .last-services {
+    margin-left: -0.65rem;
+  }
 }
