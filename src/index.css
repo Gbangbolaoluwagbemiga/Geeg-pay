@@ -151,13 +151,6 @@
 .open .text {
   color: #087f5b;
 }
-/* input,
-textarea {
-  display: block;
-  width: 80%;
-  margin: 1rem auto;
-  padding: 1rem 1.5rem;
-} */
 .details {
   margin: 5rem auto;
 }
@@ -167,7 +160,6 @@ textarea {
   height: 22rem;
 }
 .dummy {
-  /* width: 13rem; */
   margin-bottom: 0.25rem;
   height: 5rem;
   margin-left: -0.15rem;
