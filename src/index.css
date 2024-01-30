@@ -106,7 +106,6 @@
 .item {
   width: 100%;
   margin: auto;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
   padding: 0.75rem;
   padding-bottom: 0;
   padding-right: 1rem;
@@ -114,12 +113,6 @@
   border-top: 4px solid #fff;
   border-bottom: 4px solid #fff;
   background: #f9fafb;
-}
-
-.number {
-  font-size: 24px;
-  font-weight: 500;
-  color: #ced4da;
 }
 
 .title,

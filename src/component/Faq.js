@@ -11,7 +11,9 @@ function Faq() {
           the answer you’re looking for? Please chat to our friendly team.
         </p>
       </div>
-      <Accordion />{' '}
+      <div className="col-md-6">
+        <Accordion />{' '}
+      </div>
     </div>
   );
 }
