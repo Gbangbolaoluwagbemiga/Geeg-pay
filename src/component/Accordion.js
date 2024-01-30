@@ -55,7 +55,7 @@ export default function Accordion() {
   return (
     <>
       {isvisible && (
-        <div className="accordion">
+        <div className="accordion col-md-6">
           {items.map((el, num) => (
             <AccordionQuestion
               question={el.title}
@@ -79,8 +79,6 @@ function AccordionQuestion({question, answer, num, handleVisibility}) {
 
   return (
     <div className={`item ${isOpen ? 'open' : ''}`} onClick={handleClick}>
-      {/* <p className="number">{num < 9 ? `0${num + 1}` : num + 1}</p> */}
-
       <div className="content-header d-flex justify-content-between">
         <p className="title fw-bold">{question}</p>
         <p className="icon fw-bold">{isOpen ? '+' : '-'}</p>
@@ -92,50 +90,3 @@ function AccordionQuestion({question, answer, num, handleVisibility}) {
     </div>
   );
 }
-// function AddItems({handleVisibility}) {
-//   return (
-//     <button onClick={handleVisibility} style={styles}>
-//       ADD
-//     </button>
-//   );
-// }
-// function NewItems({onAddItems, handleVisibility}) {
-//   const [question, setQuestion] = useState('');
-//   const [answer, setAnswer] = useState('');
-//   const newItems = {title: question, text: answer};
-
-//   function allFunctionality(item) {
-//     handleVisibility();
-//     onAddItems(item);
-//   }
-
-//   return (
-//     <div className="details">
-//       <input
-//         value={question}
-//         required
-//         placeholder={'what is your question?'}
-//         onChange={e => setQuestion(e.target.value)}
-//       />
-//       <textarea
-//         required
-//         value={answer}
-//         placeholder={'input your answer'}
-//         onChange={e => setAnswer(e.target.value)}
-//         style={{marginBottom: '2.5rem'}}
-//       />
-
-//       {!question || !answer ? (
-//         ''
-//       ) : (
-//         <button
-//           className="btn-item"
-//           style={styles}
-//           onClick={() => allFunctionality(newItems)}
-//         >
-//           Add
-//         </button>
-//       )}
-//     </div>
-//   );
-// }
