@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .container {
   line-height: 2rem;
   font-family: inter;
@@ -89,18 +95,6 @@
   height: 1rem;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: sans-serif;
-  color: #343a40;
-  line-height: 1;
-}
-
 .accordion {
   width: 100%;
   margin: 4rem auto;
@@ -110,20 +104,22 @@ body {
 }
 
 .item {
-  width: 85%;
+  width: 100%;
   margin: auto;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-  padding: 20px 24px;
-  padding-right: 48px;
+  padding: 0.75rem;
+  padding-bottom: 0;
+  padding-right: 1rem;
   cursor: pointer;
   border-top: 4px solid #fff;
   border-bottom: 4px solid #fff;
+  /* display: flex; */
 
-  display: grid;
+  /* display: grid;
   grid-template-columns: auto 1fr auto;
   column-gap: 24px;
   row-gap: 32px;
-  align-items: center;
+  align-items: center; */
 }
 
 .number {
@@ -134,7 +130,7 @@ body {
 
 .title,
 .icon {
-  font-size: 24px;
+  font-size: 1.25rem;
   font-weight: 500;
 }
 
@@ -142,9 +138,11 @@ body {
   grid-column: 2 / -1;
   padding-bottom: 16px;
   line-height: 1.6;
-  font-size: 24px;
+  font-size: 1rem;
   font-weight: 500;
   font-style: italic;
+  margin: 0;
+  width: 100%;
 }
 
 .content-box ul {
@@ -166,13 +164,13 @@ body {
 .open .text {
   color: #087f5b;
 }
-input,
+/* input,
 textarea {
   display: block;
   width: 80%;
   margin: 1rem auto;
   padding: 1rem 1.5rem;
-}
+} */
 .details {
   margin: 5rem auto;
 }
@@ -298,14 +296,13 @@ textarea {
     margin-top: 0.5rem;
     height: 16rem;
   }
-  .number,
   .icon {
-    font-size: 22px;
+    font-size: 1.25rem;
   }
 
   .content-box,
   .title {
-    font-size: 20px;
+    font-size: 1rem;
   }
   .dummy {
     margin-left: -1rem;
