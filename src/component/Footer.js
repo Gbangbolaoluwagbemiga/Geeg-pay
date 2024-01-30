@@ -59,9 +59,9 @@ function Footer() {
           <p>
             <img src={appstore} alt="app-store" />
           </p>{' '}
-          <p>
-            <img src={playstore} alt="play-store" />
-          </p>{' '}
+          {/* <p>
+            <img src={playstore} alt="play-store" className="playstore" />
+          </p>{' '} */}
         </div>
       </div>
       <div
